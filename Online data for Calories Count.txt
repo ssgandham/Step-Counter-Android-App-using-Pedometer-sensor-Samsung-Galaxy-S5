@@ -1,0 +1,18 @@
+
+http://www.livestrong.com/article/238020-how-to-convert-pedometer-steps-to-calories/
+Calories burned per mile = 0.57 x weight
+Conversion Factor = Calories burned per mile/Step Count
+Calories Burnt = Step Count * Conversion Factor
+
+
+
+http://fitness.stackexchange.com/questions/25472/how-to-calculate-calorie-from-pedometer
+1.) Calories burned per mile = 0.57 x 175 lbs.(your weight) = 99.75 calories per mile.
+
+2.)Your_strip = height * 0,415.
+
+3.) steps_in_1_mile = 160934.4(mile in cm) / strip.
+
+4.) "conversationFactor" = stepsCount (what the pedometer provides) / step_in_1_mile;
+
+5.) CaloriesBurned = stepsCount * conversationFactor;
